@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database Connected]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Logout sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Database is Disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-05T10:05:04 IST" name="Default suite" finished-at="2023-06-05T10:05:22 IST" duration-ms="17718">
+    <groups>
+    </groups>
+    <test started-at="2023-06-05T10:05:04 IST" name="Default test" finished-at="2023-06-05T10:05:22 IST" duration-ms="17718">
+      <class name="com.Actitime.Testscripts.createCustomer">
+        <test-method is-config="true" signature="databaseConnect()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:04 IST" name="databaseConnect" finished-at="2023-06-05T10:05:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseConnect -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:04 IST" name="lauchBrowser" finished-at="2023-06-05T10:05:12 IST" duration-ms="8402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:12 IST" name="logIn" finished-at="2023-06-05T10:05:12 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="createCustomer()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:12 IST" name="createCustomer" finished-at="2023-06-05T10:05:20 IST" duration-ms="7118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:20 IST" name="logOut" finished-at="2023-06-05T10:05:21 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:21 IST" name="closeBrowser" finished-at="2023-06-05T10:05:22 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="DisconnectDatabase()[pri:0, instance:com.Actitime.Testscripts.createCustomer@2f7298b]" started-at="2023-06-05T10:05:22 IST" name="DisconnectDatabase" finished-at="2023-06-05T10:05:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database is Disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisconnectDatabase -->
+      </class> <!-- com.Actitime.Testscripts.createCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
